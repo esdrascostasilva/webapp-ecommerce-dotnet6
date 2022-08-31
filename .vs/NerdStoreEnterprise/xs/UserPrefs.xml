@@ -1,8 +1,6 @@
-﻿<Properties StartupConfiguration="{D5F92089-7258-482C-B27B-2F64BEB50D34}|Default">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{D5F92089-7258-482C-B27B-2F64BEB50D34}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
