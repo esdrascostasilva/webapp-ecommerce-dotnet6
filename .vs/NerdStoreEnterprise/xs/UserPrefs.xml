@@ -1,22 +1,25 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{D5F92089-7258-482C-B27B-2F64BEB50D34}|Default">
+﻿<Properties StartupConfiguration="{D5F92089-7258-482C-B27B-2F64BEB50D34}|Default" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/services/Identidade.API/Controllers/IdentidadeController.cs">
+    <Files>
+      <File FileName="src/services/Identidade.API/Controllers/IdentidadeController.cs" Line="21" Column="79" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="NerdStoreEnterprise" expanded="True" selected="True">
+          <Node name="NerdStoreEnterprise" expanded="True">
             <Node name="src" expanded="True">
               <Node name="Services" expanded="True">
                 <Node name="Identidade" expanded="True">
                   <Node name="Identidade.API" expanded="True">
-                    <Node name="Dependencies" expanded="True" />
                     <Node name="Controllers" expanded="True" />
-                    <Node name="Data" expanded="True" />
-                    <Node name="Extensions" expanded="True" />
-                    <Node name="Models" expanded="True" />
-                    <Node name="Properties" expanded="True" />
-                    <Node name="appsettings.json" expanded="True" />
+                    <Node name="Data" selected="True" />
                   </Node>
                 </Node>
               </Node>
@@ -30,7 +33,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
 </Properties>
