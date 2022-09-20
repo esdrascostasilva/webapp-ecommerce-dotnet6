@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{D5F92089-7258-482C-B27B-2F64BEB50D34}|Default" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/services/Identidade.API/Controllers/IdentidadeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/services/Identidade.API/Program.cs">
     <Files>
-      <File FileName="src/services/Identidade.API/Controllers/IdentidadeController.cs" Line="21" Column="79" />
+      <File FileName="src/services/Identidade.API/Program.cs" Line="36" Column="1" />
+      <File FileName="src/services/Identidade.API/appsettings.Development.json" Line="17" Column="2" />
+      <File FileName="src/services/Identidade.API/appsettings.json" Line="1" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,7 +19,8 @@
                 <Node name="Identidade" expanded="True">
                   <Node name="Identidade.API" expanded="True">
                     <Node name="Controllers" expanded="True" />
-                    <Node name="Data" selected="True" />
+                    <Node name="Extensions" expanded="True" />
+                    <Node name="appsettings.json" expanded="True" />
                   </Node>
                 </Node>
               </Node>
@@ -33,4 +34,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
