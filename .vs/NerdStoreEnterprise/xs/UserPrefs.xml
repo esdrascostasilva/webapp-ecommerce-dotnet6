@@ -20,6 +20,7 @@
                   <Node name="Identidade.API" expanded="True">
                     <Node name="Controllers" expanded="True" />
                     <Node name="Extensions" expanded="True" />
+                    <Node name="Models" selected="True" />
                     <Node name="appsettings.json" expanded="True" />
                   </Node>
                 </Node>
