@@ -17,6 +17,7 @@
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets.build.json
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets.development.json
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/scopedcss/Views/Shared/_LoginPartial.cshtml.rz.scp.css
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/scopedcss/bundle/LojaWebApp.MVC.styles.css
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/scopedcss/projectbundle/LojaWebApp.MVC.bundle.scp.css
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/LojaWebApp.MVC.dll
