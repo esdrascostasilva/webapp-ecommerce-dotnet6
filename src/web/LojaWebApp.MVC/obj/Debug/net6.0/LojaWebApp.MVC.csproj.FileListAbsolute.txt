@@ -25,3 +25,11 @@
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/LojaWebApp.MVC.pdb
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/LojaWebApp.MVC.genruntimeconfig.cache
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/ref/LojaWebApp.MVC.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/LojaWebApp.MVC.csproj.CopyComplete

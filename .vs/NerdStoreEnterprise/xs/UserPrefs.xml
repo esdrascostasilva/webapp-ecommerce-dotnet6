@@ -1,22 +1,12 @@
 ﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Safari.app" />
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
-      <Items>
-        <StartupItem ItemId="{D5F92089-7258-482C-B27B-2F64BEB50D34}" ItemName="Identidade.API" ConfigurationId="Default" />
-        <StartupItem ItemId="{2AF48FF7-B879-41CC-B3A1-F1A0F95A08F1}" ItemName="LojaWebApp.MVC" ConfigurationId="Default" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Controllers/IdentidadeController.cs" relfile="src/web/LojaWebApp.MVC/Controllers/IdentidadeController.cs" line="54" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="src/web/LojaWebApp.MVC/Controllers/IdentidadeController.cs">
     <Files>
-      <File FileName="src/web/LojaWebApp.MVC/Controllers/IdentidadeController.cs" Line="56" Column="50" />
+      <File FileName="src/web/LojaWebApp.MVC/Controllers/IdentidadeController.cs" Line="100" Column="2" />
+      <File FileName="src/web/LojaWebApp.MVC/Services/AutenticationService.cs" Line="25" Column="76" />
+      <File FileName="src/web/LojaWebApp.MVC/Models/UsuarioViewModel.cs" Line="55" Column="1" />
+      <File FileName="src/web/LojaWebApp.MVC/Services/IAutenticationService.cs" Line="14" Column="1" />
+      <File FileName="src/web/LojaWebApp.MVC/Views/Home/Index.cshtml" Line="10" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,7 +17,7 @@
                 <Node name="Identidade" expanded="True">
                   <Node name="Identidade.API" expanded="True">
                     <Node name="Controllers" expanded="True" />
-                    <Node name="Extensions" expanded="True" />
+                    <Node name="Data" expanded="True" />
                     <Node name="appsettings.json" expanded="True" />
                   </Node>
                 </Node>
@@ -36,9 +26,7 @@
                 <Node name="MVC" expanded="True">
                   <Node name="LojaWebApp.MVC" expanded="True">
                     <Node name="Configuration" expanded="True" />
-                    <Node name="Controllers" expanded="True">
-                      <Node name="IdentidadeController.cs" selected="True" />
-                    </Node>
+                    <Node name="Controllers" expanded="True" />
                     <Node name="Models" expanded="True" />
                     <Node name="Services" expanded="True" />
                     <Node name="Views" expanded="True">
@@ -58,6 +46,20 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Controllers/IdentidadeController.cs" relfile="src/web/LojaWebApp.MVC/Controllers/IdentidadeController.cs" line="58" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{D5F92089-7258-482C-B27B-2F64BEB50D34}" ItemName="Identidade.API" ConfigurationId="Default" />
+        <StartupItem ItemId="{2AF48FF7-B879-41CC-B3A1-F1A0F95A08F1}" ItemName="LojaWebApp.MVC" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
