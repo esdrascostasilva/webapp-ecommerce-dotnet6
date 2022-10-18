@@ -1,21 +1,22 @@
-﻿<Properties StartupConfiguration="{D5F92089-7258-482C-B27B-2F64BEB50D34}|Default" GitUserInfo="UsingMD">
+﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{D5F92089-7258-482C-B27B-2F64BEB50D34}" ItemName="Identidade.API" ConfigurationId="Default" />
+        <StartupItem ItemId="{2AF48FF7-B879-41CC-B3A1-F1A0F95A08F1}" ItemName="LojaWebApp.MVC" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Controllers/IdentidadeController.cs" relfile="src/web/LojaWebApp.MVC/Controllers/IdentidadeController.cs" line="54" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="src/web/LojaWebApp.MVC/Controllers/IdentidadeController.cs">
     <Files>
-      <File FileName="src/services/Identidade.API/Program.cs" Line="93" Column="27" />
-      <File FileName="src/services/Identidade.API/appsettings.Development.json" Line="17" Column="2" />
-      <File FileName="src/services/Identidade.API/appsettings.json" Line="1" Column="2" />
-      <File FileName="src/web/LojaWebApp.MVC/Configuration/IdentityConfig.cs" Line="19" Column="52" />
-      <File FileName="src/web/LojaWebApp.MVC/Program.cs" Line="16" Column="1" />
-      <File FileName="src/web/LojaWebApp.MVC/Configuration/WebAppConfig.cs" Line="12" Column="62" />
-      <File FileName="src/web/LojaWebApp.MVC/Controllers/IdentidadeController.cs" Line="53" Column="18" />
-      <File FileName="src/web/LojaWebApp.MVC/Models/UsuarioViewModel.cs" Line="2" Column="43" />
-      <File FileName="src/web/LojaWebApp.MVC/Views/Identidade/Registro.cshtml" Line="12" Column="1" />
-      <File FileName="src/web/LojaWebApp.MVC/Views/Identidade/Login.cshtml" Line="12" Column="1" />
+      <File FileName="src/web/LojaWebApp.MVC/Controllers/IdentidadeController.cs" Line="56" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -35,10 +36,15 @@
                 <Node name="MVC" expanded="True">
                   <Node name="LojaWebApp.MVC" expanded="True">
                     <Node name="Configuration" expanded="True" />
-                    <Node name="Controllers" expanded="True" />
+                    <Node name="Controllers" expanded="True">
+                      <Node name="IdentidadeController.cs" selected="True" />
+                    </Node>
                     <Node name="Models" expanded="True" />
+                    <Node name="Services" expanded="True" />
                     <Node name="Views" expanded="True">
+                      <Node name="Home" expanded="True" />
                       <Node name="Identidade" expanded="True" />
+                      <Node name="Shared" expanded="True" />
                     </Node>
                   </Node>
                 </Node>
