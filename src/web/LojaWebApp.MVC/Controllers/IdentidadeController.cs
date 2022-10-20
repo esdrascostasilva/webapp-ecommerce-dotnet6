@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LojaWebApp.MVC.Controllers
 {
-    public class IdentidadeController : Controller
+    public class IdentidadeController : MainController
     {
         private readonly IAutenticationService _autenticationService;
 
@@ -34,7 +34,7 @@ namespace LojaWebApp.MVC.Controllers
             // Comunicar com a API de registro
             var resposta = await _autenticationService.Registro(usuarioRegistro);
 
-            //if (false) return View(usuarioRegistro);
+            //if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioRegistro);
 
             // Realizar login na API
             await RealizarLogin(resposta);
@@ -58,7 +58,7 @@ namespace LojaWebApp.MVC.Controllers
             // Comunicar com a API de login
             var resposta = await _autenticationService.Login(usuarioLogin);
 
-            //if (false) return View(usuarioLogin);
+            if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioLogin);
 
             // Realizar login na API
             await RealizarLogin(resposta);

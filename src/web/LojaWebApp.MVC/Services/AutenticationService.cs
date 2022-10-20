@@ -5,7 +5,7 @@ using System.Net.Http;
 
 namespace LojaWebApp.MVC.Services
 {
-    public class AutenticationService : IAutenticationService
+    public class AutenticationService : Service, IAutenticationService
     {
         private readonly HttpClient _httpClient;
 
@@ -28,6 +28,14 @@ namespace LojaWebApp.MVC.Services
                 PropertyNameCaseInsensitive = true,
             };
 
+            if (!TratarErrosResponse(response))
+            {
+                return new UsuarioRespostaLogin
+                {
+                    ResponseResult = JsonSerializer.Deserialize<ResponseResult>(await response.Content.ReadAsStringAsync(), options)
+                };
+            }
+            
             return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), options);
         }
 
@@ -43,6 +51,14 @@ namespace LojaWebApp.MVC.Services
             {
                 PropertyNameCaseInsensitive = true
             };
+
+            if (!TratarErrosResponse(response))
+            {
+                return new UsuarioRespostaLogin
+                {
+                    ResponseResult = JsonSerializer.Deserialize<ResponseResult>(await response.Content.ReadAsStringAsync(), options)
+                };
+            }
 
             return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), options);
         }
