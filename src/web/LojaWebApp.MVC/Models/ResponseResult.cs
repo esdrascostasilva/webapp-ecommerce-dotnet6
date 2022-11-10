@@ -4,10 +4,10 @@ public class ResponseResult
 {
     public string Title { get; set; }
     public int Status { get; set; }
-    public ResponseExtensions Errors { get; set; }
+    public ResponseErrorMessages Errors { get; set; }
 }
 
-public class ResponseExtensions
+public class ResponseErrorMessages
 {
     public List<string> Mensagens { get; set; }
 }

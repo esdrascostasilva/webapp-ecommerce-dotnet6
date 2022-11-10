@@ -15,7 +15,7 @@ namespace LojaWebApp.MVC.Models
 
         [Required(ErrorMessage = "O campo {0} é obrigatório.")]
         [Compare("Senha", ErrorMessage = "As senhas não conferem.")]
-        public string ConfirmacaoSenha { get; set; }
+        public string ConfirmacaoSenha { get; set; } //Antes: ConfirmacaoSenha
     }
 
 	public class UsuarioLogin

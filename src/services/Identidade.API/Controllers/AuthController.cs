@@ -12,13 +12,13 @@ using Microsoft.IdentityModel.Tokens;
 namespace Identidade.API.Controllers
 {
     [Route("api/identidade")]
-    public class IdentidadeController : MainController
+    public class AuthController : MainController
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly AppSettings _appSettings;
 
-        public IdentidadeController(SignInManager<IdentityUser> signInManager,
+        public AuthController(SignInManager<IdentityUser> signInManager,
                                     UserManager<IdentityUser> userManager,
                                     IOptions<AppSettings> appSettings)
         {
@@ -31,6 +31,8 @@ namespace Identidade.API.Controllers
         [HttpPost("nova-conta")]
         public async Task<ActionResult> Registrar(UsuarioRegistro usuarioRegistro)
         {
+            //return new StatusCodeResult(404);
+
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var user = new IdentityUser
@@ -58,7 +60,8 @@ namespace Identidade.API.Controllers
         [HttpPost("autenticar")]
         public async Task<ActionResult> Login(UsuarioLogin usuarioLogin)
         {
-            if (!ModelState.IsValid) return CustomResponse();
+            
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var result = await _signInManager.PasswordSignInAsync(usuarioLogin.Email, usuarioLogin.Senha, false, true);
 
@@ -107,7 +110,7 @@ namespace Identidade.API.Controllers
             return identityClaims;
         }
 
-        private UsuarioRespostaLogin ObterRespostaToken(string encodedToken, IdentityUser user, IList<Claim> claims)
+        private UsuarioRespostaLogin ObterRespostaToken(string encodedToken, IdentityUser user, IEnumerable<Claim> claims)
         { 
             return new UsuarioRespostaLogin
             {

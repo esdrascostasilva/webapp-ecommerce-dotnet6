@@ -14,7 +14,7 @@ namespace Identidade.API.Models
         public string Senha { get; set; }
 
         [Compare("Senha", ErrorMessage = "As senha nao conferem")]
-        public string SenhaConfirmacao { get; set; }
+        public string ConfirmacaoSenha { get; set; } 
     }
 
     public class UsuarioLogin

@@ -1,22 +1,33 @@
 ﻿
 
+using LojaWebApp.MVC.Extensions;
+
 namespace LojaWebApp.MVC.Configuration
 {
     public static class WebAppConfig
     {
-        public static void AddMvcConfiguration(this IServiceCollection services)
+        public static void AddMvcConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddControllersWithViews();
+            services.Configure<AppSettings>(configuration);
         }
 
         public static IApplicationBuilder UseMvcConfiguration(this WebApplication app, IWebHostEnvironment env)
         {
-            if(!env.IsDevelopment())
-            {
-                app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
+            //if (env.IsDevelopment())
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //}
+            //else
+            //{
+            //    app.UseExceptionHandler("/erro/500");
+            //    app.UseStatusCodePagesWithRedirects("/erro/{0}");
+            //    app.UseHsts();
+            //}
+
+            app.UseExceptionHandler("/erro/500");
+            app.UseStatusCodePagesWithRedirects("/erro/{0}");
+            app.UseHsts();
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
@@ -24,6 +35,8 @@ namespace LojaWebApp.MVC.Configuration
             app.UseRouting();
 
             app.UseIdentityConfiguration();
+
+            app.UseMiddleware<ExceptionMiddleware>();
 
             app.MapControllerRoute(
                 name: "default",

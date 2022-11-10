@@ -27,14 +27,15 @@ namespace LojaWebApp.MVC.Controllers
 
         [HttpPost]
         [Route("nova-conta")]
-        public async Task<ActionResult> Registro(UsuarioRegistro usuarioRegistro)
+        public async Task<IActionResult> Registro(UsuarioRegistro usuarioRegistro)
         {
-            if (!ModelState.IsValid) return View(usuarioRegistro);
+            if (!ModelState.IsValid)
+                return View(usuarioRegistro);
 
             // Comunicar com a API de registro
             var resposta = await _autenticationService.Registro(usuarioRegistro);
 
-            //if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioRegistro);
+            if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioRegistro);
 
             // Realizar login na API
             await RealizarLogin(resposta);
@@ -44,16 +45,24 @@ namespace LojaWebApp.MVC.Controllers
 
         [HttpGet]
         [Route("login")]
-        public IActionResult Login()
+        public IActionResult Login(string? returnUrl = null)
         {
+            ViewData["ReturnUrl"] = returnUrl;
             return View();
         }
 
+
+
+
+
         [HttpPost]
         [Route("login")]
-        public async Task<IActionResult> Login(UsuarioLogin usuarioLogin)
+        public async Task<IActionResult> Login(UsuarioLogin usuarioLogin, string? returnUrl = null)
         {
-            if (!ModelState.IsValid) return View(usuarioLogin);
+            ViewData["ReturnUrl"] = returnUrl;
+
+            if (!ModelState.IsValid)
+                return View(usuarioLogin);
 
             // Comunicar com a API de login
             var resposta = await _autenticationService.Login(usuarioLogin);
@@ -63,8 +72,16 @@ namespace LojaWebApp.MVC.Controllers
             // Realizar login na API
             await RealizarLogin(resposta);
 
-            return RedirectToAction("Index", "Home");
+            if (string.IsNullOrEmpty(returnUrl))
+                return RedirectToAction("Index", "Home");
+
+            return LocalRedirect(returnUrl);
         }
+
+
+
+
+
 
         [HttpGet]
         [Route("sair")]
@@ -73,6 +90,12 @@ namespace LojaWebApp.MVC.Controllers
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index", "Home");
         }
+
+
+
+
+
+
 
         private async Task RealizarLogin(UsuarioRespostaLogin respostaLogin)
         {
@@ -90,8 +113,9 @@ namespace LojaWebApp.MVC.Controllers
                 IsPersistent = true,
             };
             
-            await HttpContext.SignInAsync(  CookieAuthenticationDefaults.AuthenticationScheme,
-                                            new ClaimsPrincipal(claimsIdentity), authProperties);
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                                          new ClaimsPrincipal(claimsIdentity),
+                                          authProperties);
         }
 
         private static JwtSecurityToken ObterTokenFormatado(string jwtToken)

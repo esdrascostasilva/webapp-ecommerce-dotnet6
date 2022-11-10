@@ -1,7 +1,7 @@
 ﻿@model LojaWebApp.MVC.Models.UsuarioLogin
 
 @{
-    ViewData["Title"] = "Log in";
+    ViewData["Title"] = "Login";
 }
 
 
@@ -12,7 +12,7 @@
     <div class="card mx-auto" style="max-width: 380px; margin-top: 100px;">
 
         <div class="card-body">
-            <h4 class="card-title mb-4">Seja bem vindo!</h4>
+            <h4 class="card-title mb-4">Bem vindos! <br />Boas compras</h4>
             <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
                 <div class="form-group">
                     <label asp-for="Email"></label>

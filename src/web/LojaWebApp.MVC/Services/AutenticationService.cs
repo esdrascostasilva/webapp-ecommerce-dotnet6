@@ -8,59 +8,50 @@ namespace LojaWebApp.MVC.Services
     public class AutenticationService : Service, IAutenticationService
     {
         private readonly HttpClient _httpClient;
-
+        
         public AutenticationService(HttpClient httpClient)
         {
             _httpClient = httpClient;
         }
 
+
+
+
         public async Task<UsuarioRespostaLogin> Login(UsuarioLogin usuarioLogin)
         {
-            var loginContent = new StringContent(JsonSerializer.Serialize(usuarioLogin),
-                                                    Encoding.UTF8,
-                                                    "application/json");
+            var loginContent = ObterConteudo(usuarioLogin);
 
             var response = await _httpClient.PostAsync("https://localhost:7178/api/identidade/autenticar", loginContent);
 
-            // System.Text.Json nao consegue tratar as letras maiusc/minusc
-            var options = new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true,
-            };
-
             if (!TratarErrosResponse(response))
             {
                 return new UsuarioRespostaLogin
                 {
-                    ResponseResult = JsonSerializer.Deserialize<ResponseResult>(await response.Content.ReadAsStringAsync(), options)
+                    ResponseResult = await DeserializarObjetoResponse<ResponseResult>(response)
                 };
             }
             
-            return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), options);
+            return await DeserializarObjetoResponse<UsuarioRespostaLogin>(response);
         }
+
+
+
 
         public async Task<UsuarioRespostaLogin> Registro(UsuarioRegistro usuarioRegistro)
         {
-            var registroContent = new StringContent(JsonSerializer.Serialize(usuarioRegistro),
-                                                    Encoding.UTF8,
-                                                    "application/json");
+            var registroContent = ObterConteudo(usuarioRegistro);
 
             var response = await _httpClient.PostAsync("https://localhost:7178/api/identidade/nova-conta", registroContent);
-
-            var options = new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            };
 
             if (!TratarErrosResponse(response))
             {
                 return new UsuarioRespostaLogin
                 {
-                    ResponseResult = JsonSerializer.Deserialize<ResponseResult>(await response.Content.ReadAsStringAsync(), options)
+                    ResponseResult = await DeserializarObjetoResponse<ResponseResult>(response)
                 };
             }
 
-            return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), options);
+            return await DeserializarObjetoResponse<UsuarioRespostaLogin>(response);
         }
     }
 }
