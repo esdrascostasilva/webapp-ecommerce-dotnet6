@@ -5,7 +5,7 @@ namespace Core.ClassLibrary.DomainObjects
     {
         public Guid Id { get; set; }
 
-        public override bool Equals(object obj)
+        public override bool Equals(object? obj)
         {
             var compareTo = obj as Entity;
 
