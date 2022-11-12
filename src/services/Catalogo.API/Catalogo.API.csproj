@@ -28,12 +28,14 @@
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Data\Mappings\" />
+    <None Remove="Data\Repository\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Data\" />
     <Folder Include="Data\Mappings\" />
+    <Folder Include="Data\Repository\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\building blocks\Core.ClassLibrary\Core.ClassLibrary.csproj">
