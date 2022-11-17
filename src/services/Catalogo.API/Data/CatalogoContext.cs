@@ -1,9 +1,10 @@
 ﻿using Catalogo.API.Models;
+using Core.ClassLibrary.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace Catalogo.API.Data
 {
-    public class CatalogoContext : DbContext
+    public class CatalogoContext : DbContext, IUnitOfWork
     {
         public CatalogoContext(DbContextOptions<CatalogoContext> options) : base(options) { }
 
@@ -19,6 +20,12 @@ namespace Catalogo.API.Data
             
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogoContext).Assembly);
+        }
+
+        public async Task<bool> Commit()
+        {
+            // Save changes retorna um int com o numero de linhas afetadas.
+           return await base.SaveChangesAsync() > 0;
         }
     }
 }

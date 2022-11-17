@@ -1,5 +1,5 @@
 ﻿using System;
-using Core.ClassLibrary.DomainObjects;
+using Core.ClassLibrary.Data;
 
 namespace Catalogo.API.Models
 {

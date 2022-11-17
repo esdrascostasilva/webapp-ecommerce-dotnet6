@@ -1,5 +1,6 @@
 ﻿using System;
 using Catalogo.API.Models;
+using Core.ClassLibrary.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace Catalogo.API.Data.Repository
@@ -12,6 +13,8 @@ namespace Catalogo.API.Data.Repository
         {
             _context = context;
         }
+
+        public IUnitOfWork UnitOfWork => _context;
 
         public async Task<IEnumerable<Produto>> ObterTodos()
         {

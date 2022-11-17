@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mIfwVxuT1cwuDusf1z8dV2OeJOoAHz5K8nPppCMiAyn19AFsvsm+xuQk00lGCZH+K2vyp8e9gtIdUJXJ65ibjw==",
+  "dgSpecHash": "oeS/61xdjKE98ceBYRDxiSzM2tydGZkcdcjGjOHZW/d9S1P5inzdUk8Ln1nauv8VybAo6MbuthVdMcjt+KphfA==",
   "success": true,
   "projectFilePath": "/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Pedido.API/Pedido.API.csproj",
   "expectedPackageFiles": [

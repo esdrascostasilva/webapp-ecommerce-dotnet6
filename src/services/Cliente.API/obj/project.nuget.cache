@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VAwrwXeLorDpsEWJLnOaMykqHmQnRiHMzmVuzMbJOyO9ZjRyvqw+4FV7ju9cd6P0ZscxVrbfbpSVWxTjjRcBTQ==",
+  "dgSpecHash": "dr30Jr+8UWWcb2qZXGO2F78tsG3saAMUn8kGVD9PfbGEtQ4qQ8vD1ppHch5bPdoV7Mh14xnYqMunVrkv9pPMRw==",
   "success": true,
   "projectFilePath": "/Users/esdrascosta/Projects/NerdStoreEnterprise/src/Services/Cliente.API/Cliente.API.csproj",
   "expectedPackageFiles": [
