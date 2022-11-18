@@ -16,8 +16,8 @@
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/obj/Debug/net6.0/Cliente.API.csproj.CoreCompileInputs.cache
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/obj/Debug/net6.0/Cliente.API.MvcApplicationPartsAssemblyInfo.cs
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/obj/Debug/net6.0/Cliente.API.MvcApplicationPartsAssemblyInfo.cache
-/Users/esdrascosta/Projects/NerdStoreEnterprise/src/Services/Cliente.API/obj/Debug/net6.0/staticwebassets.build.json
-/Users/esdrascosta/Projects/NerdStoreEnterprise/src/Services/Cliente.API/obj/Debug/net6.0/staticwebassets.development.json
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/obj/Debug/net6.0/staticwebassets.build.json
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/obj/Debug/net6.0/staticwebassets.development.json
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/obj/Debug/net6.0/scopedcss/bundle/Cliente.API.styles.css
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/Services/Cliente.API/obj/Debug/net6.0/Cliente.API.csproj.CopyComplete
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/obj/Debug/net6.0/Cliente.API.dll
