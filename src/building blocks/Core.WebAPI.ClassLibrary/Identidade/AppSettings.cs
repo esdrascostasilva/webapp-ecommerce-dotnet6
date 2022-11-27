@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Identidade.API.Extensions
+namespace Core.WebAPI.ClassLibrary.Identidade
 {
     public class AppSettings
     {

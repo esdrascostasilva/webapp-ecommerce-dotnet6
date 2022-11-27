@@ -2,6 +2,7 @@
 using Catalogo.API.Data;
 using Catalogo.API.Data.Repository;
 using Catalogo.API.Models;
+using Core.WebAPI.ClassLibrary.Identidade;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,8 @@ var configuration = builder.Configuration;
 // Add services to the container.
 
 builder.Services.AddApiConfiguration(configuration);
+//JWT
+builder.Services.AddAuthConfiguration(configuration);
 builder.Services.AddSwaggerConfiguration();
 builder.Services.RegisterServices();
 

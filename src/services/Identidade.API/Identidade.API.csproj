@@ -45,4 +45,9 @@
     <Folder Include="Extensions\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\building blocks\Core.WebAPI.ClassLibrary\Core.WebAPI.ClassLibrary.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

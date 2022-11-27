@@ -2,6 +2,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Core.WebAPI.ClassLibrary.Identidade;
 using Identidade.API.Extensions;
 using Identidade.API.Models;
 using Microsoft.AspNetCore.Identity;

@@ -1,0 +1,12 @@
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/bin/Debug/net6.0/Core.WebAPI.ClassLibrary.deps.json
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/bin/Debug/net6.0/Core.WebAPI.ClassLibrary.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/bin/Debug/net6.0/Core.WebAPI.ClassLibrary.pdb
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/obj/Debug/net6.0/Core.WebAPI.ClassLibrary.csproj.AssemblyReference.cache
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/obj/Debug/net6.0/Core.WebAPI.ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/obj/Debug/net6.0/Core.WebAPI.ClassLibrary.AssemblyInfoInputs.cache
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/obj/Debug/net6.0/Core.WebAPI.ClassLibrary.AssemblyInfo.cs
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/obj/Debug/net6.0/Core.WebAPI.ClassLibrary.csproj.CoreCompileInputs.cache
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/obj/Debug/net6.0/Core.WebAPI.ClassLibrary.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/obj/Debug/net6.0/refint/Core.WebAPI.ClassLibrary.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/obj/Debug/net6.0/Core.WebAPI.ClassLibrary.pdb
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/obj/Debug/net6.0/ref/Core.WebAPI.ClassLibrary.dll

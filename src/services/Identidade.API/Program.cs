@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using Core.WebAPI.ClassLibrary.Identidade;
 using Identidade.API.Data;
 using Identidade.API.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -36,30 +37,32 @@ builder.Services.AddDefaultIdentity<IdentityUser>()
 
 
 #region Config JWT
-var appSettingsSection = configuration.GetSection("AppSettings");
-builder.Services.Configure<AppSettings>(appSettingsSection);
+//var appSettingsSection = configuration.GetSection("AppSettings");
+//builder.Services.Configure<AppSettings>(appSettingsSection);
 
-var appSettings = appSettingsSection.Get<AppSettings>();
-var key = Encoding.ASCII.GetBytes(appSettings.Segredo);
+//var appSettings = appSettingsSection.Get<AppSettings>();
+//var key = Encoding.ASCII.GetBytes(appSettings.Segredo);
 
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(bearerOptions =>
-{
-    bearerOptions.RequireHttpsMetadata = true;
-    bearerOptions.SaveToken = true;
-    bearerOptions.TokenValidationParameters = new TokenValidationParameters
-    {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("x")),
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidAudience = appSettings.ValidoEm,
-        ValidIssuer = appSettings.Emissor
-    };
-});
+//builder.Services.AddAuthentication(options =>
+//{
+//    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+//    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+//}).AddJwtBearer(bearerOptions =>
+//{
+//    bearerOptions.RequireHttpsMetadata = true;
+//    bearerOptions.SaveToken = true;
+//    bearerOptions.TokenValidationParameters = new TokenValidationParameters
+//    {
+//        ValidateIssuerSigningKey = true,
+//        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("x")),
+//        ValidateIssuer = true,
+//        ValidateAudience = true,
+//        ValidAudience = appSettings.ValidoEm,
+//        ValidIssuer = appSettings.Emissor
+//    };
+//});
+
+builder.Services.AddAuthConfiguration(configuration);
 #endregion
 
 
@@ -82,6 +85,7 @@ var app = builder.Build();
 
 #endregion Configure Services
 
+app.UserAuthConfiguration();
 
 #region Configure Pipelines
 

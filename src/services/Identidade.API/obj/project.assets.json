@@ -1026,6 +1026,19 @@
             "rid": "win"
           }
         }
+      },
+      "Core.WebAPI.ClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.6"
+        },
+        "compile": {
+          "bin/placeholder/Core.WebAPI.ClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.WebAPI.ClassLibrary.dll": {}
+        }
       }
     }
   },
@@ -2629,10 +2642,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Core.WebAPI.ClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../building blocks/Core.WebAPI.ClassLibrary/Core.WebAPI.ClassLibrary.csproj",
+      "msbuildProject": "../../building blocks/Core.WebAPI.ClassLibrary/Core.WebAPI.ClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Core.WebAPI.ClassLibrary >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.6",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.6",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.6",
@@ -2669,7 +2688,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/Core.WebAPI.ClassLibrary.csproj": {
+              "projectPath": "/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.WebAPI.ClassLibrary/Core.WebAPI.ClassLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

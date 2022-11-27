@@ -1,5 +1,6 @@
 ﻿using System;
 using Catalogo.API.Data;
+using Core.WebAPI.ClassLibrary.Identidade;
 using Microsoft.EntityFrameworkCore;
 
 namespace Catalogo.API.Configuration
@@ -33,6 +34,8 @@ namespace Catalogo.API.Configuration
 			app.UseHttpsRedirection();
 			app.UseRouting();
 			app.UseCors("Total");
+			//JWT
+			app.UserAuthConfiguration();
 			app.UseEndpoints(endpoints =>
 			{
 				endpoints.MapControllers();
