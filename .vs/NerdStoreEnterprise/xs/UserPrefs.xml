@@ -10,63 +10,47 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.src.Building_220blocks.Services.Core.WebAPI.ClassLibrary FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Extensions/ExceptionMiddleware.cs" relfile="src/web/LojaWebApp.MVC/Extensions/ExceptionMiddleware.cs" line="8" column="1" />
-    <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Services/AutenticationService.cs" relfile="src/web/LojaWebApp.MVC/Services/AutenticationService.cs" line="35" column="1" />
-    <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Identidade.API/Controllers/AuthController.cs" relfile="src/services/Identidade.API/Controllers/AuthController.cs" line="34" column="1" />
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Extensions/ExceptionMiddleware.cs" relfile="src/web/LojaWebApp.MVC/Extensions/ExceptionMiddleware.cs" line="8" column="1" />
+      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Services/AutenticationService.cs" relfile="src/web/LojaWebApp.MVC/Services/AutenticationService.cs" line="35" column="1" />
+      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Identidade.API/Controllers/AuthController.cs" relfile="src/services/Identidade.API/Controllers/AuthController.cs" line="35" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.src.Services.Catalogo.Catalogo.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/services/Catalogo.API/Controllers/CatalogoController.cs">
-    <Files>
-      <File FileName="src/services/Catalogo.API/Controllers/CatalogoController.cs" Line="4" Column="1" />
-      <File FileName="src/services/Catalogo.API/Program.cs" Line="21" Column="1" />
-      <File FileName="src/services/Catalogo.API/Configuration/ApiConfig.cs" />
-      <File FileName="src/services/Catalogo.API/Configuration/DIConfig.cs" />
-      <File FileName="src/services/Catalogo.API/Configuration/SwaggerConfig.cs" Line="8" Column="45" />
-      <File FileName="src/services/Catalogo.API/Properties/launchSettings.json" Line="9" Column="6" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NerdStoreEnterprise" expanded="True">
             <Node name="src" expanded="True">
-              <Node name="Building blocks" expanded="True" />
+              <Node name="Building blocks" expanded="True">
+                <Node name="Core" expanded="True" />
+                <Node name="Services" expanded="True">
+                  <Node name="Core.WebAPI.ClassLibrary" expanded="True">
+                    <Node name="Identidade" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
               <Node name="Services" expanded="True">
                 <Node name="Catalogo" expanded="True">
                   <Node name="Catalogo.API" expanded="True">
-                    <Node name="Controllers" expanded="True" />
-                    <Node name="Data" expanded="True" />
-                    <Node name="Migrations" expanded="True" />
-                    <Node name="Models" expanded="True" />
-                    <Node name="Properties" expanded="True" />
+                    <Node name="Configuration" expanded="True" />
                     <Node name="appsettings.json" expanded="True" />
                   </Node>
                 </Node>
                 <Node name="Identidade" expanded="True">
                   <Node name="Identidade.API" expanded="True">
+                    <Node name="Configuration" expanded="True" />
                     <Node name="Controllers" expanded="True" />
+                    <Node name="Extensions" expanded="True" />
+                    <Node name="appsettings.json" expanded="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="Web" expanded="True">
-                <Node name="MVC" expanded="True">
-                  <Node name="LojaWebApp.MVC" expanded="True">
-                    <Node name="Views" expanded="True">
-                      <Node name="Shared" expanded="True">
-                        <Node name="Components" expanded="True" />
-                      </Node>
-                    </Node>
-                    <Node name="wwwroot" expanded="True">
-                      <Node name="images" expanded="True">
-                        <Node name="produtos" expanded="True" />
-                      </Node>
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
+              <Node name="Web" expanded="True" />
             </Node>
           </Node>
         </State>
