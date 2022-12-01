@@ -1,6 +1,4 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -10,17 +8,12 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Extensions/ExceptionMiddleware.cs" relfile="src/web/LojaWebApp.MVC/Extensions/ExceptionMiddleware.cs" line="8" column="1" />
-      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Services/AutenticationService.cs" relfile="src/web/LojaWebApp.MVC/Services/AutenticationService.cs" line="35" column="1" />
-      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Identidade.API/Controllers/AuthController.cs" relfile="src/services/Identidade.API/Controllers/AuthController.cs" line="35" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.src.Services.Catalogo.Catalogo.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/building blocks/Core.WebAPI.ClassLibrary/Identidade/CustomAuthorize.cs">
+    <Files>
+      <File FileName="src/building blocks/Core.WebAPI.ClassLibrary/Identidade/CustomAuthorize.cs" Line="28" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -30,7 +23,9 @@
                 <Node name="Core" expanded="True" />
                 <Node name="Services" expanded="True">
                   <Node name="Core.WebAPI.ClassLibrary" expanded="True">
-                    <Node name="Identidade" expanded="True" />
+                    <Node name="Identidade" expanded="True">
+                      <Node name="CustomAuthorize.cs" selected="True" />
+                    </Node>
                   </Node>
                 </Node>
               </Node>
@@ -57,4 +52,14 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Extensions/ExceptionMiddleware.cs" relfile="src/web/LojaWebApp.MVC/Extensions/ExceptionMiddleware.cs" line="8" column="1" />
+      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Services/AutenticationService.cs" relfile="src/web/LojaWebApp.MVC/Services/AutenticationService.cs" line="35" column="1" />
+      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Identidade.API/Controllers/AuthController.cs" relfile="src/services/Identidade.API/Controllers/AuthController.cs" line="35" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.src.Services.Catalogo.Catalogo.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

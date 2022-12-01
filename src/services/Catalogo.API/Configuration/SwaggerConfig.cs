@@ -16,6 +16,30 @@ namespace Catalogo.API.Configuration
 					Contact = new OpenApiContact() { Name = "Esdras Costa", Email = "esdras.cts@outlook.com" },
 					License = new OpenApiLicense() { Name = "MIT", Url = new Uri("https://opensource.org/license/MIT") }
 				});
+				c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+				{
+					Description = "Insira o token JWT. Exemplo: Bearer seu_token",
+					Name = "Authorization",
+					Scheme = "Bearer",
+					BearerFormat = "JWT",
+					In = ParameterLocation.Header,
+					Type = SecuritySchemeType.ApiKey
+				});
+
+				c.AddSecurityRequirement(new OpenApiSecurityRequirement
+				{
+					{
+						new OpenApiSecurityScheme
+						{
+							Reference = new OpenApiReference
+							{
+								Type = ReferenceType.SecurityScheme,
+								Id = "Bearer"
+							}
+						},
+						new string[] { }
+					}
+				});
 			});
 		}
 
