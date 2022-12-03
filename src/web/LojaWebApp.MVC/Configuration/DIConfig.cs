@@ -9,7 +9,7 @@ namespace LojaWebApp.MVC.Configuration
         public static void RegisterService(this IServiceCollection services)
         {
             services.AddHttpClient<IAutenticationService, AutenticationService>();
-
+            services.AddHttpClient<ICatalogoService, CatalogoService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<IUser, AspNetUser>();
         }

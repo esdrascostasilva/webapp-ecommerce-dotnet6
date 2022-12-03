@@ -17,6 +17,7 @@
     <None Remove="Extensions\" />
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\Summary\" />
+    <None Remove="Views\Catalogo\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Configuration\" />
@@ -25,6 +26,7 @@
     <Folder Include="Extensions\" />
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\Summary\" />
+    <Folder Include="Views\Catalogo\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.10" />
