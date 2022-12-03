@@ -22,16 +22,16 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="src/web/LojaWebApp.MVC/Views/Shared/_LoginPartial.cshtml">
     <Files>
-      <File FileName="src/web/LojaWebApp.MVC/Models/UsuarioViewModel.cs" Line="20" Column="1" />
-      <File FileName="src/web/LojaWebApp.MVC/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="src/web/LojaWebApp.MVC/Views/Shared/_LoginPartial.cshtml" Line="28" Column="1" />
-      <File FileName="src/web/LojaWebApp.MVC/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
-      <File FileName="src/building blocks/Core.WebAPI.ClassLibrary/Identidade/AppSettings.cs" Line="6" Column="23" />
+      <File FileName="src/web/LojaWebApp.MVC/Models/UsuarioViewModel.cs" />
+      <File FileName="src/web/LojaWebApp.MVC/Views/Shared/_Layout.cshtml" />
+      <File FileName="src/web/LojaWebApp.MVC/Views/Shared/_LoginPartial.cshtml" Line="21" Column="47" />
+      <File FileName="src/web/LojaWebApp.MVC/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="src/building blocks/Core.WebAPI.ClassLibrary/Identidade/AppSettings.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="NerdStoreEnterprise" expanded="True" selected="True">
+          <Node name="NerdStoreEnterprise" expanded="True">
             <Node name="src" expanded="True">
               <Node name="Building blocks" expanded="True">
                 <Node name="Services" expanded="True">
