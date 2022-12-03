@@ -20,19 +20,20 @@
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/services/Catalogo.API/Configuration/SwaggerConfig.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/web/LojaWebApp.MVC/Views/Shared/_LoginPartial.cshtml">
     <Files>
-      <File FileName="src/building blocks/Core.WebAPI.ClassLibrary/Identidade/CustomAuthorize.cs" Line="29" Column="49" />
-      <File FileName="src/services/Catalogo.API/Controllers/CatalogoController.cs" Line="11" Column="17" />
-      <File FileName="src/services/Catalogo.API/Configuration/SwaggerConfig.cs" Line="37" Column="22" />
+      <File FileName="src/web/LojaWebApp.MVC/Models/UsuarioViewModel.cs" Line="20" Column="1" />
+      <File FileName="src/web/LojaWebApp.MVC/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="src/web/LojaWebApp.MVC/Views/Shared/_LoginPartial.cshtml" Line="28" Column="1" />
+      <File FileName="src/web/LojaWebApp.MVC/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="src/building blocks/Core.WebAPI.ClassLibrary/Identidade/AppSettings.cs" Line="6" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="NerdStoreEnterprise" expanded="True">
+          <Node name="NerdStoreEnterprise" expanded="True" selected="True">
             <Node name="src" expanded="True">
               <Node name="Building blocks" expanded="True">
-                <Node name="Core" expanded="True" />
                 <Node name="Services" expanded="True">
                   <Node name="Core.WebAPI.ClassLibrary" expanded="True">
                     <Node name="Identidade" expanded="True" />
@@ -40,20 +41,23 @@
                 </Node>
               </Node>
               <Node name="Services" expanded="True">
-                <Node name="Catalogo" expanded="True">
-                  <Node name="Catalogo.API" expanded="True">
-                    <Node name="Configuration" expanded="True" />
-                    <Node name="Controllers" expanded="True" />
-                    <Node name="appsettings.json" expanded="True" />
-                  </Node>
-                </Node>
-                <Node name="Identidade">
-                  <Node name="Identidade.API">
-                    <Node name="Configuration" expanded="True" />
+                <Node name="Identidade" expanded="True">
+                  <Node name="Identidade.API" expanded="True">
+                    <Node name="Models" expanded="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="Web" expanded="True" />
+              <Node name="Web" expanded="True">
+                <Node name="MVC" expanded="True">
+                  <Node name="LojaWebApp.MVC" expanded="True">
+                    <Node name="Models" expanded="True" />
+                    <Node name="Views" expanded="True">
+                      <Node name="Shared" expanded="True" />
+                    </Node>
+                    <Node name="wwwroot" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
