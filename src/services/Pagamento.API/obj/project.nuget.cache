@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5xYE1BRv36Xev8uwBQ6s/djpnKV9kdhXFEmXIr/IMvUZDgp754g8AVVVaf7l9rbOOo4PmeY64X/esmUM/vdXBQ==",
+  "dgSpecHash": "bBhluDWqVHmLTxt8bLdGAlMVe3tdQACWdJVv7Anz/mByf4OZ2aZPAJ4x5FPKTpWVhJ8r9W91wFZUBv3u9eml7w==",
   "success": true,
   "projectFilePath": "/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Pagamento.API/Pagamento.API.csproj",
   "expectedPackageFiles": [
