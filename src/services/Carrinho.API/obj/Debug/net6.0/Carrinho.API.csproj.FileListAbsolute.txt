@@ -16,6 +16,11 @@
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Carrinho.API/obj/Debug/net6.0/Carrinho.API.csproj.CoreCompileInputs.cache
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Carrinho.API/obj/Debug/net6.0/Carrinho.API.MvcApplicationPartsAssemblyInfo.cs
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Carrinho.API/obj/Debug/net6.0/Carrinho.API.MvcApplicationPartsAssemblyInfo.cache
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Carrinho.API/obj/Debug/net6.0/staticwebassets/msbuild.Carrinho.API.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Carrinho.API/obj/Debug/net6.0/staticwebassets/msbuild.build.Carrinho.API.props
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Carrinho.API/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Carrinho.API.props
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Carrinho.API/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Carrinho.API.props
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Carrinho.API/obj/Debug/net6.0/staticwebassets.pack.json
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Carrinho.API/obj/Debug/net6.0/staticwebassets.build.json
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Carrinho.API/obj/Debug/net6.0/staticwebassets.development.json
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Carrinho.API/obj/Debug/net6.0/scopedcss/bundle/Carrinho.API.styles.css

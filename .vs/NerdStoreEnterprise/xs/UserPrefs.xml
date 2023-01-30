@@ -1,8 +1,26 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="Multiple Projects">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{2AF48FF7-B879-41CC-B3A1-F1A0F95A08F1}|SelfHosting">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/web/LojaWebApp.MVC/Services/CatalogoService.cs">
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{C433A133-0182-4937-B95E-3CA4E705BD39}" ItemName="Catalogo.API" ConfigurationId="Default" />
+        <StartupItem ItemId="{D5F92089-7258-482C-B27B-2F64BEB50D34}" ItemName="Identidade.API" ConfigurationId="Default" />
+        <StartupItem ItemId="{2AF48FF7-B879-41CC-B3A1-F1A0F95A08F1}" ItemName="LojaWebApp.MVC" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.src.Services.Catalogo.Catalogo.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Controllers/CatalogoController.cs" relfile="src/web/LojaWebApp.MVC/Controllers/CatalogoController.cs" line="23" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/web/LojaWebApp.MVC/Configuration/DIConfig.cs">
     <Files>
-      <File FileName="src/web/LojaWebApp.MVC/Services/CatalogoService.cs" Line="1" Column="1" />
+      <File FileName="src/web/LojaWebApp.MVC/Configuration/DIConfig.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,9 +30,14 @@
               <Node name="Web" expanded="True">
                 <Node name="MVC" expanded="True">
                   <Node name="LojaWebApp.MVC" expanded="True">
-                    <Node name="Services" expanded="True">
-                      <Node name="Handlers" selected="True" />
+                    <Node name="Configuration" expanded="True">
+                      <Node name="DIConfig.cs" selected="True" />
                     </Node>
+                    <Node name="Controllers" expanded="True" />
+                    <Node name="Extensions" expanded="True" />
+                    <Node name="Properties" expanded="True" />
+                    <Node name="Services" expanded="True" />
+                    <Node name="appsettings.json" expanded="True" />
                   </Node>
                 </Node>
               </Node>
@@ -24,24 +47,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
-      <Items>
-        <StartupItem ItemId="{C433A133-0182-4937-B95E-3CA4E705BD39}" ItemName="Catalogo.API" ConfigurationId="Default" />
-        <StartupItem ItemId="{D5F92089-7258-482C-B27B-2F64BEB50D34}" ItemName="Identidade.API" ConfigurationId="Default" />
-        <StartupItem ItemId="{2AF48FF7-B879-41CC-B3A1-F1A0F95A08F1}" ItemName="LojaWebApp.MVC" ConfigurationId="Default" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Extensions/ExceptionMiddleware.cs" relfile="src/web/LojaWebApp.MVC/Extensions/ExceptionMiddleware.cs" line="8" column="1" />
-      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Services/AutenticationService.cs" relfile="src/web/LojaWebApp.MVC/Services/AutenticationService.cs" line="35" column="1" />
-      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Identidade.API/Controllers/AuthController.cs" relfile="src/services/Identidade.API/Controllers/AuthController.cs" line="35" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.src.Services.Catalogo.Catalogo.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

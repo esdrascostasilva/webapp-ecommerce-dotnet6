@@ -257,6 +257,11 @@
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/Catalogo.API.csproj.CoreCompileInputs.cache
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/Catalogo.API.MvcApplicationPartsAssemblyInfo.cs
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/Catalogo.API.MvcApplicationPartsAssemblyInfo.cache
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/staticwebassets/msbuild.Catalogo.API.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/staticwebassets/msbuild.build.Catalogo.API.props
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Catalogo.API.props
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Catalogo.API.props
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/staticwebassets.pack.json
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/staticwebassets.build.json
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/staticwebassets.development.json
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/scopedcss/bundle/Catalogo.API.styles.css
@@ -266,8 +271,3 @@
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/Catalogo.API.pdb
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/Catalogo.API.genruntimeconfig.cache
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/ref/Catalogo.API.dll
-/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/staticwebassets/msbuild.Catalogo.API.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/staticwebassets/msbuild.build.Catalogo.API.props
-/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Catalogo.API.props
-/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Catalogo.API.props
-/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/obj/Debug/net6.0/staticwebassets.pack.json

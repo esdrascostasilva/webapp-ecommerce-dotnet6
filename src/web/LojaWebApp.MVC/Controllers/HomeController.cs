@@ -24,7 +24,7 @@ public class HomeController : MainController
         if (id == 500)
         {
             modelErro.Titulo = "Ocorreu um erro!";
-            modelErro.Mensagem = "Ocorreu um erro! Tente novamete mais tarde ou contate nosso suporte";
+            modelErro.Mensagem = "Ocorreu um erro! Tente novamente mais tarde ou contate nosso suporte";
             modelErro.ErroCode = id;
         }
         else if (id == 404)

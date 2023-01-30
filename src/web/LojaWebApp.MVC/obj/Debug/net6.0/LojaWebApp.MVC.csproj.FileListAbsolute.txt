@@ -7,11 +7,14 @@
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/LojaWebApp.MVC.dll
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/LojaWebApp.MVC.pdb
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.Extensions.Http.Polly.dll
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Polly.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/Polly.Extensions.Http.dll
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/LojaWebApp.MVC.csproj.AssemblyReference.cache
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/LojaWebApp.MVC.GeneratedMSBuildEditorConfig.editorconfig
@@ -21,6 +24,11 @@
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/LojaWebApp.MVC.MvcApplicationPartsAssemblyInfo.cache
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/LojaWebApp.MVC.RazorAssemblyInfo.cache
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/LojaWebApp.MVC.RazorAssemblyInfo.cs
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets/msbuild.LojaWebApp.MVC.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets/msbuild.build.LojaWebApp.MVC.props
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.LojaWebApp.MVC.props
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.LojaWebApp.MVC.props
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets.pack.json
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets.build.json
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets.development.json
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/scopedcss/Views/Shared/Components/Summary/Default.cshtml.rz.scp.css
@@ -34,8 +42,3 @@
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/LojaWebApp.MVC.pdb
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/LojaWebApp.MVC.genruntimeconfig.cache
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/ref/LojaWebApp.MVC.dll
-/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets/msbuild.LojaWebApp.MVC.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets/msbuild.build.LojaWebApp.MVC.props
-/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.LojaWebApp.MVC.props
-/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.LojaWebApp.MVC.props
-/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/obj/Debug/net6.0/staticwebassets.pack.json

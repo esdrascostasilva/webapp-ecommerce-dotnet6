@@ -26,7 +26,7 @@ namespace Catalogo.API.Controllers
 			return await _produtoRepository.ObterTodos();
 		}
 
-		[ClaimsAuthorize("Catalogo","Ler")]
+		[ClaimsAuthorize("Catalogo","Leitura")]
 		[HttpGet("produtos/{id}")]
 		public async Task<Produto> ProdutoDetalhe(Guid id)
 		{

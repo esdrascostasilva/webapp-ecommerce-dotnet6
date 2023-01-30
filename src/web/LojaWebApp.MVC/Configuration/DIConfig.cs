@@ -1,5 +1,4 @@
-﻿using System;
-using LojaWebApp.MVC.Extensions;
+﻿using LojaWebApp.MVC.Extensions;
 using LojaWebApp.MVC.Services;
 using LojaWebApp.MVC.Services.Handlers;
 
@@ -14,8 +13,9 @@ namespace LojaWebApp.MVC.Configuration
             services.AddHttpClient<IAutenticationService, AutenticationService>();
 
             services.AddHttpClient<ICatalogoService, CatalogoService>()
-                .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>();
-
+                .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
+                .AddPolicyHandler(PollyExtensions.EsperarERetentar());
+               
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddScoped<IUser, AspNetUser>();
@@ -23,4 +23,3 @@ namespace LojaWebApp.MVC.Configuration
         }
     }
 }
-
