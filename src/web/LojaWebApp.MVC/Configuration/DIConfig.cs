@@ -1,6 +1,7 @@
 ﻿using LojaWebApp.MVC.Extensions;
 using LojaWebApp.MVC.Services;
 using LojaWebApp.MVC.Services.Handlers;
+using Polly;
 
 namespace LojaWebApp.MVC.Configuration
 {
@@ -14,7 +15,8 @@ namespace LojaWebApp.MVC.Configuration
 
             services.AddHttpClient<ICatalogoService, CatalogoService>()
                 .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
-                .AddPolicyHandler(PollyExtensions.EsperarERetentar());
+                .AddPolicyHandler(PollyExtensions.EsperarERetentar())
+                .AddTransientHttpErrorPolicy(p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(15)));
                
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 

@@ -18,10 +18,7 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/web/LojaWebApp.MVC/Configuration/DIConfig.cs">
-    <Files>
-      <File FileName="src/web/LojaWebApp.MVC/Configuration/DIConfig.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -30,14 +27,14 @@
               <Node name="Web" expanded="True">
                 <Node name="MVC" expanded="True">
                   <Node name="LojaWebApp.MVC" expanded="True">
-                    <Node name="Configuration" expanded="True">
-                      <Node name="DIConfig.cs" selected="True" />
-                    </Node>
+                    <Node name="Configuration" expanded="True" />
                     <Node name="Controllers" expanded="True" />
                     <Node name="Extensions" expanded="True" />
                     <Node name="Properties" expanded="True" />
                     <Node name="Services" expanded="True" />
-                    <Node name="appsettings.json" expanded="True" />
+                    <Node name="appsettings.json" expanded="True">
+                      <Node name="appsettings.Development.json" selected="True" />
+                    </Node>
                   </Node>
                 </Node>
               </Node>
