@@ -1,6 +1,8 @@
 ﻿
 
+using System.Globalization;
 using LojaWebApp.MVC.Extensions;
+using Microsoft.AspNetCore.Localization;
 
 namespace LojaWebApp.MVC.Configuration
 {
@@ -35,6 +37,14 @@ namespace LojaWebApp.MVC.Configuration
             app.UseRouting();
 
             app.UseIdentityConfiguration();
+
+            var supportCultures = new[] { new CultureInfo("en-us") };
+            app.UseRequestLocalization(new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture("en-us"),
+                SupportedCultures = supportCultures,
+                SupportedUICultures = supportCultures
+            });
 
             app.UseMiddleware<ExceptionMiddleware>();
 

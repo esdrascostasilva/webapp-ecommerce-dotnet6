@@ -51,10 +51,6 @@ namespace LojaWebApp.MVC.Controllers
             return View();
         }
 
-
-
-
-
         [HttpPost]
         [Route("login")]
         public async Task<IActionResult> Login(UsuarioLogin usuarioLogin, string? returnUrl = null)
@@ -78,11 +74,6 @@ namespace LojaWebApp.MVC.Controllers
             return LocalRedirect(returnUrl);
         }
 
-
-
-
-
-
         [HttpGet]
         [Route("sair")]
         public async Task<IActionResult> Logout()
@@ -90,12 +81,6 @@ namespace LojaWebApp.MVC.Controllers
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index", "Home");
         }
-
-
-
-
-
-
 
         private async Task RealizarLogin(UsuarioRespostaLogin respostaLogin)
         {
