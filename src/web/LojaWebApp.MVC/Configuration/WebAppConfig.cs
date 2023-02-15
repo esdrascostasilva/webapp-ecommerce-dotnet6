@@ -1,6 +1,4 @@
-﻿
-
-using System.Globalization;
+﻿using System.Globalization;
 using LojaWebApp.MVC.Extensions;
 using Microsoft.AspNetCore.Localization;
 
@@ -38,10 +36,10 @@ namespace LojaWebApp.MVC.Configuration
 
             app.UseIdentityConfiguration();
 
-            var supportCultures = new[] { new CultureInfo("en-us") };
+            var supportCultures = new[] { new CultureInfo("pt-BR") };
             app.UseRequestLocalization(new RequestLocalizationOptions
             {
-                DefaultRequestCulture = new RequestCulture("en-us"),
+                DefaultRequestCulture = new RequestCulture("pt-BR"),
                 SupportedCultures = supportCultures,
                 SupportedUICultures = supportCultures
             });

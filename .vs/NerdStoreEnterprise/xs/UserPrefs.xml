@@ -1,6 +1,4 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{2AF48FF7-B879-41CC-B3A1-F1A0F95A08F1}|SelfHosting">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="Multiple Projects">
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -10,38 +8,41 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.src.Services.Catalogo.Catalogo.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Controllers/CatalogoController.cs" relfile="src/web/LojaWebApp.MVC/Controllers/CatalogoController.cs" line="23" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NerdStoreEnterprise" expanded="True">
             <Node name="src" expanded="True">
-              <Node name="Web" expanded="True">
-                <Node name="MVC" expanded="True">
-                  <Node name="LojaWebApp.MVC" expanded="True">
-                    <Node name="Configuration" expanded="True" />
-                    <Node name="Controllers" expanded="True" />
-                    <Node name="Extensions" expanded="True" />
-                    <Node name="Properties" expanded="True" />
-                    <Node name="Services" expanded="True" />
-                    <Node name="appsettings.json" expanded="True">
-                      <Node name="appsettings.Development.json" selected="True" />
-                    </Node>
+              <Node name="Building blocks" expanded="True">
+                <Node name="Core" expanded="True" />
+                <Node name="Services" expanded="True">
+                  <Node name="Core.WebAPI.ClassLibrary" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="Cliente" expanded="True">
+                  <Node name="Cliente.API" expanded="True" selected="True">
+                    <Node name="Dependencies" expanded="True" />
+                    <Node name="Models" expanded="True" />
                   </Node>
                 </Node>
               </Node>
+              <Node name="Web" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Controllers/CatalogoController.cs" relfile="src/web/LojaWebApp.MVC/Controllers/CatalogoController.cs" line="23" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.src.Services.Catalogo.Catalogo.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

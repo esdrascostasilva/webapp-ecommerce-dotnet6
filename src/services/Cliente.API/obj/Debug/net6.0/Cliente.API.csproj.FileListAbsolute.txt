@@ -9,6 +9,8 @@
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/bin/Debug/net6.0/Core.ClassLibrary.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/bin/Debug/net6.0/Core.ClassLibrary.pdb
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/obj/Debug/net6.0/Cliente.API.csproj.AssemblyReference.cache
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/obj/Debug/net6.0/Cliente.API.GeneratedMSBuildEditorConfig.editorconfig
 /Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Cliente.API/obj/Debug/net6.0/Cliente.API.AssemblyInfoInputs.cache

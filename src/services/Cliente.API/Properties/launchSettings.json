@@ -12,8 +12,7 @@
     "Cliente.API": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7284;http://localhost:5028",
+      "applicationUrl": "http://localhost:11831",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

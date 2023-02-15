@@ -88,6 +88,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Core.ClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Core.ClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.ClassLibrary.dll": {}
+        }
       }
     }
   },
@@ -216,10 +226,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Core.ClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../building blocks/Core.ClassLibrary/Core.ClassLibrary.csproj",
+      "msbuildProject": "../../building blocks/Core.ClassLibrary/Core.ClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Core.ClassLibrary >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -247,7 +263,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/Core.ClassLibrary.csproj": {
+              "projectPath": "/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/Core.ClassLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

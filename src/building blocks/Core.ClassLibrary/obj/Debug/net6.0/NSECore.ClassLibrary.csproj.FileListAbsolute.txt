@@ -1,0 +1,12 @@
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/bin/Debug/net6.0/NSECore.ClassLibrary.deps.json
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/bin/Debug/net6.0/NSECore.ClassLibrary.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/bin/Debug/net6.0/NSECore.ClassLibrary.pdb
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/obj/Debug/net6.0/NSECore.ClassLibrary.csproj.AssemblyReference.cache
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/obj/Debug/net6.0/NSECore.ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/obj/Debug/net6.0/NSECore.ClassLibrary.AssemblyInfoInputs.cache
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/obj/Debug/net6.0/NSECore.ClassLibrary.AssemblyInfo.cs
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/obj/Debug/net6.0/NSECore.ClassLibrary.csproj.CoreCompileInputs.cache
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/obj/Debug/net6.0/NSECore.ClassLibrary.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/obj/Debug/net6.0/refint/NSECore.ClassLibrary.dll
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/obj/Debug/net6.0/NSECore.ClassLibrary.pdb
+/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/obj/Debug/net6.0/ref/NSECore.ClassLibrary.dll

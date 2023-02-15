@@ -119,4 +119,12 @@ Global
 		{1F389B87-3ECE-4FE4-966A-9D7BA294EC06} = {90ACE393-72AA-42AA-ADFC-C58621D02AA3}
 		{6DBAA29D-2559-488C-AFB2-ED68896C71B1} = {1F389B87-3ECE-4FE4-966A-9D7BA294EC06}
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.scope = text/x-csharp
+	EndGlobalSection
 EndGlobal
