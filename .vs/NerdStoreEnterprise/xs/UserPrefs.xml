@@ -11,23 +11,41 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/services/Cliente.API/Models/Cliente.cs">
+    <Files>
+      <File FileName="src/Services/Cliente.API/Models/Cliente.cs" Line="34" Column="33" />
+      <File FileName="src/Services/Cliente.API/Models/Endereco.cs" Line="28" Column="10" />
+      <File FileName="src/building blocks/Core.ClassLibrary/DomainObjects/CPF.cs" Line="33" Column="38" />
+      <File FileName="src/building blocks/Core.ClassLibrary/Utils/StringUtils.cs" Line="13" Column="1" />
+      <File FileName="src/building blocks/Core.ClassLibrary/DomainObjects/DomainException.cs" Line="13" Column="2" />
+      <File FileName="src/building blocks/Core.ClassLibrary/DomainObjects/Entity.cs" Line="6" Column="11" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NerdStoreEnterprise" expanded="True">
             <Node name="src" expanded="True">
               <Node name="Building blocks" expanded="True">
-                <Node name="Core" expanded="True" />
+                <Node name="Core" expanded="True">
+                  <Node name="Core.ClassLibrary" expanded="True">
+                    <Node name="Data" expanded="True" />
+                    <Node name="DomainObjects" expanded="True" />
+                    <Node name="Utils" expanded="True" />
+                  </Node>
+                </Node>
                 <Node name="Services" expanded="True">
                   <Node name="Core.WebAPI.ClassLibrary" expanded="True" />
                 </Node>
               </Node>
               <Node name="Services" expanded="True">
                 <Node name="Cliente" expanded="True">
-                  <Node name="Cliente.API" expanded="True" selected="True">
+                  <Node name="Cliente.API" expanded="True">
                     <Node name="Dependencies" expanded="True" />
-                    <Node name="Models" expanded="True" />
+                    <Node name="Controllers" expanded="True" />
+                    <Node name="Data" expanded="True" />
+                    <Node name="Models" expanded="True">
+                      <Node name="Cliente.cs" selected="True" />
+                    </Node>
                   </Node>
                 </Node>
               </Node>

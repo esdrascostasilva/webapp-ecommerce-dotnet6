@@ -6,22 +6,33 @@ namespace Cliente.API.Models
 	public class Cliente : Entity, IAggregateRoot
 	{
         public string Nome { get; private set; }
-        public string Email { get; private set; }
-        public string CPF { get; private set; }
+        public Email Email { get; private set; }
+        public Cpf CPF { get; private set; }
         public bool Excluido { get; private set; }
         //Relacao 1:1 com Endereco
         public Endereco Endereco { get; private set; }
 
-        public Cliente(string nome, string email, string cpf)
+        //EF Relation
+        protected Cliente() { }
+
+        public Cliente(Guid id, string nome, string email, string cpf)
         {
+            Id = id;
             Nome = nome;
-            Email = email;
-            CPF = cpf;
+            Email = new Email(email);
+            CPF = new Cpf(cpf);
             Excluido = false;
         }
 
-        //EF Relation
-        protected Cliente() { }
+        public void TrocarEmail(string email)
+        {
+            Email = new Email(email);
+        }
+
+        public void AtribuirEndereco(Endereco endereco)
+        {
+            Endereco = endereco;
+        }
     }
 }
 
