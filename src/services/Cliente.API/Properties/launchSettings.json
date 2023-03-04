@@ -12,7 +12,7 @@
     "Cliente.API": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:11831",
+      "applicationUrl": "http://localhost:13128",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

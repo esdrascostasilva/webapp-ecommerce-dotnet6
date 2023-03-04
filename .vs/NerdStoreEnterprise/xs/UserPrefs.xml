@@ -1,4 +1,5 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="Multiple Projects">
+﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -8,17 +9,10 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.src.Services.Identidade.Identidade.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/services/Cliente.API/Models/Cliente.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/services/Cliente.API/Data/ClientesContext.cs">
     <Files>
-      <File FileName="src/Services/Cliente.API/Models/Cliente.cs" Line="34" Column="33" />
-      <File FileName="src/Services/Cliente.API/Models/Endereco.cs" Line="28" Column="10" />
-      <File FileName="src/building blocks/Core.ClassLibrary/DomainObjects/CPF.cs" Line="33" Column="38" />
-      <File FileName="src/building blocks/Core.ClassLibrary/Utils/StringUtils.cs" Line="13" Column="1" />
-      <File FileName="src/building blocks/Core.ClassLibrary/DomainObjects/DomainException.cs" Line="13" Column="2" />
-      <File FileName="src/building blocks/Core.ClassLibrary/DomainObjects/Entity.cs" Line="6" Column="11" />
+      <File FileName="src/Services/Cliente.API/Data/ClientesContext.cs" Line="17" Column="60" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,19 +27,14 @@
                     <Node name="Utils" expanded="True" />
                   </Node>
                 </Node>
-                <Node name="Services" expanded="True">
-                  <Node name="Core.WebAPI.ClassLibrary" expanded="True" />
-                </Node>
               </Node>
               <Node name="Services" expanded="True">
                 <Node name="Cliente" expanded="True">
                   <Node name="Cliente.API" expanded="True">
-                    <Node name="Dependencies" expanded="True" />
-                    <Node name="Controllers" expanded="True" />
-                    <Node name="Data" expanded="True" />
-                    <Node name="Models" expanded="True">
-                      <Node name="Cliente.cs" selected="True" />
+                    <Node name="Data" expanded="True">
+                      <Node name="ClientesContext.cs" selected="True" />
                     </Node>
+                    <Node name="Models" expanded="True" />
                   </Node>
                 </Node>
               </Node>
@@ -61,6 +50,7 @@
       <Breakpoint enabled="false" file="/Users/esdrascosta/Projects/NerdStoreEnterprise/src/web/LojaWebApp.MVC/Controllers/CatalogoController.cs" relfile="src/web/LojaWebApp.MVC/Controllers/CatalogoController.cs" line="23" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.Web.MVC.LojaWebApp.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.src.Services.Catalogo.Catalogo.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

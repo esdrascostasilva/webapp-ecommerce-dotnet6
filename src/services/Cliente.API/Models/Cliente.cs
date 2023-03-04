@@ -1,18 +1,16 @@
-﻿using System;
-using Core.ClassLibrary.DomainObjects;
+﻿using Core.ClassLibrary.DomainObjects;
 
 namespace Cliente.API.Models
 {
-	public class Cliente : Entity, IAggregateRoot
-	{
+    public class Cliente : Entity, IAggregateRoot
+    {
         public string Nome { get; private set; }
         public Email Email { get; private set; }
-        public Cpf CPF { get; private set; }
+        public Cpf Cpf { get; private set; }
         public bool Excluido { get; private set; }
-        //Relacao 1:1 com Endereco
         public Endereco Endereco { get; private set; }
 
-        //EF Relation
+        // EF Relation
         protected Cliente() { }
 
         public Cliente(Guid id, string nome, string email, string cpf)
@@ -20,7 +18,7 @@ namespace Cliente.API.Models
             Id = id;
             Nome = nome;
             Email = new Email(email);
-            CPF = new Cpf(cpf);
+            Cpf = new Cpf(cpf);
             Excluido = false;
         }
 
