@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TZ+28nm5bmd/4EeDLpJ48OeObr/2w2xSa9JWnXriWJldIZZtN5D4ZPLp4sLHnDVDh2GN0RwN+1iEUp0wghuyNg==",
+  "dgSpecHash": "G+JRZeTUoas6a8JeGakyGGGbgjBqUeg5viIvPSQa+VzywT9UcY9D41zSG2wLWV9pKsNmB5vJ2XYICZMg/Luizg==",
   "success": true,
   "projectFilePath": "/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/Catalogo.API.csproj",
   "expectedPackageFiles": [
     "/Users/esdrascosta/.nuget/packages/fluentvalidation/8.6.3/fluentvalidation.8.6.3.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/esdrascosta/.nuget/packages/mediatr/8.0.2/mediatr.8.0.2.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/messagepackanalyzer/2.1.152/messagepackanalyzer.2.1.152.nupkg.sha512",

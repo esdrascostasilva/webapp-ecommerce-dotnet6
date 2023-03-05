@@ -1,4 +1,5 @@
 ﻿using Cliente.API.Configuration;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddApiConfiguration(configuration);
 //builder.AddJwtConfiguration(configuration);
 //builder.AddSwaggerConfiguration();
+builder.Services.AddMediatR(typeof(Program));
 //builder.RegisterServices();
 
 var app = builder.Build();

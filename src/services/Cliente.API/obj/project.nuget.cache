@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "FQvpT+wL6gXr3JBhmrHFpsv4sMXCn2ONxS4VWq3uFvqSIk9UMfh/UCAF55naULBBCz5ErYL8fy6Q6EHVgo3MmQ==",
+  "dgSpecHash": "ba1Z20bWQKunkKl6Lv48oBgoaExkqtw1bq0ZGSrtQOzANSfKwfYxDnMQr8OEvrS/9jsrIVMsK2wJwvs/CQJ3SA==",
   "success": true,
   "projectFilePath": "/Users/esdrascosta/Projects/NerdStoreEnterprise/src/Services/Cliente.API/Cliente.API.csproj",
   "expectedPackageFiles": [
     "/Users/esdrascosta/.nuget/packages/fluentvalidation/8.6.3/fluentvalidation.8.6.3.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/esdrascosta/.nuget/packages/mediatr/8.0.2/mediatr.8.0.2.nupkg.sha512",
+    "/Users/esdrascosta/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/8.0.1/mediatr.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
