@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ciP0b1rWylcvP4yWXaEvXAHKZdMGUlISKRQkaptU0YEAaaukQU3Lb6Q2EZ8QS3li6CH4zB71tZOdAEs9etVOtw==",
+  "dgSpecHash": "Gl5fhaIDLRYR8wrhvilkG5tiS5jE8/4yFvzPxCTxZHPgEQZi20qM8o+zRCbfxe8fP4L22jNi2JCF+IYYQItstw==",
   "success": true,
   "projectFilePath": "/Users/esdrascosta/Projects/NerdStoreEnterprise/src/building blocks/Core.ClassLibrary/Core.ClassLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/esdrascosta/.nuget/packages/fluentvalidation/8.6.3/fluentvalidation.8.6.3.nupkg.sha512",
+    "/Users/esdrascosta/.nuget/packages/system.componentmodel.annotations/4.4.1/system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
   "logs": []
 }

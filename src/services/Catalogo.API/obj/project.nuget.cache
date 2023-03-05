@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3rJkxPeByDdyKW6/MqmXlAr1/UKna7740wd1zxxHh4ddxThWwvpExXzyrzNEkZMEArUJHYnf4l/IVwAa2uaFCA==",
+  "dgSpecHash": "TZ+28nm5bmd/4EeDLpJ48OeObr/2w2xSa9JWnXriWJldIZZtN5D4ZPLp4sLHnDVDh2GN0RwN+1iEUp0wghuyNg==",
   "success": true,
   "projectFilePath": "/Users/esdrascosta/Projects/NerdStoreEnterprise/src/services/Catalogo.API/Catalogo.API.csproj",
   "expectedPackageFiles": [
+    "/Users/esdrascosta/.nuget/packages/fluentvalidation/8.6.3/fluentvalidation.8.6.3.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",
@@ -106,6 +107,7 @@
     "/Users/esdrascosta/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
+    "/Users/esdrascosta/.nuget/packages/system.componentmodel.annotations/4.4.1/system.componentmodel.annotations.4.4.1.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/system.composition/1.0.31/system.composition.1.0.31.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/system.composition.attributedmodel/1.0.31/system.composition.attributedmodel.1.0.31.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/system.composition.convention/1.0.31/system.composition.convention.1.0.31.nupkg.sha512",
